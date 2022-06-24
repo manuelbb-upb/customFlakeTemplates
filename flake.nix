@@ -12,5 +12,7 @@
       };
     };
 
+    templates.default = templates.python-poetry2nix;
+
   };
 }
