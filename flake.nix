@@ -3,7 +3,7 @@
 {
   description = "Personal Flake Templates";
 
-  outputs = { self }: {
+  outputs = { self }: rec {
 
     templates = {
       python-poetry2nix = {
